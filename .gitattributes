@@ -1,0 +1,6 @@
+*.sbc text
+*.xml text linguist-language=XML
+*.dds binary
+*.png binary
+*.jpg binary
+*.xwm binary

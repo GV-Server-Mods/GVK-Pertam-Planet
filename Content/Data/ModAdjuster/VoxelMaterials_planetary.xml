@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<VoxelMaterials>
+		<!-- This adds buffed mining ratio for Ice_03 to let gas generators output more H2 -->
+		<!-- Ice_03 -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Ice_03</SubtypeId>
+			</Id>
+			<MinedOreRatio>7.5</MinedOreRatio> <!-- vanilla 5.0 -->
+		</VoxelMaterial>
+		<!-- This adds correct landing jet particles -->
+		<!-- Sand_02 -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Sand_02</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Grid_KharakSand</LandingEffect>
+		</VoxelMaterial>
+		<!-- DesertRocks -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>DesertRocks</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<!-- snow -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Snow</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>
+		</VoxelMaterial>
+		<!-- Ice -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Ice</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>
+		</VoxelMaterial>
+		<!-- Grass -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Grass</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Grass bare</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Rocks_grass -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Rocks_grass</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Grass_old -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Grass_old</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Grass_old bare -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Grass_old bare</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Grass_02 -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Grass_02</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Woods_grass -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Woods_grass</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Woods_grass bare -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Woods_grass bare</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Grass</LandingEffect>
+		</VoxelMaterial>
+		<!-- Soil -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Soil</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<!-- Stone -->
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Stone</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>CrackedSoil</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>DustyRocks</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>DustyRocks2</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>DustyRocks3</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+		</VoxelMaterial>
+		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>PertamSand</SubtypeId>
+			</Id>
+			<LandingEffect>Landing_Jet_Grid_KharakSand</LandingEffect>
+		</VoxelMaterial>
+	</VoxelMaterials>
+</Definitions>
