@@ -29,3 +29,7 @@ The Xylanthia skybox is used with permission from SixDice (Sixie), granted befor
 ## Issues
 
 Tracked in the GVK hub: [GV-Server-Mods/GVK-Settings](https://github.com/GV-Server-Mods/GVK-Settings/issues).
+
+## License
+
+[MIT](LICENSE.txt). The Xylanthia skybox is SixDice's work, used with permission, and is not covered by this license.
